@@ -84,3 +84,38 @@
     order: -1;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item{
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+
+.footer-one,
+.footer-three{
+    flex: initial;
+    width: 300px;
+    background-color: #5995DA;
+}
+
+.gap-container{
+    height: 300px;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gap-item{
+    height: 50px;
+    width: 50px;
+    background-color: goldenrod;
+    border: 2px solid brown;
+}
